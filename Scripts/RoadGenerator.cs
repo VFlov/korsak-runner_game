@@ -5,12 +5,19 @@ using UnityEngine;
 
 public class RoadGenerator : MonoBehaviour
 {
+    public static RoadGenerator instance;
+
     public int roadSegmentLength = 10;
     public List<GameObject> roadPrefabs;
     List<GameObject> currentRoads = new List<GameObject>();
     public float maxSpeed = 10;
     public float speed = 10;
     public int maxRoadCount = 6;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
