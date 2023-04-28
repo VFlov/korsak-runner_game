@@ -1165,7 +1165,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roadSegmentLength: 10
   roadPrefabs:
-  - {fileID: 654503872301740044, guid: 8c1337c39a4c7514cb168c1fbde3d0fd, type: 3}
+  - {fileID: 654503872301740044, guid: 8948cbfeaa21429419a27f635fa083b9, type: 3}
+  - {fileID: 654503872301740044, guid: 977716eb0a862774ba8e5e42fc126297, type: 3}
+  - {fileID: 654503872301740044, guid: ca75528e5d4b144449c7ca34c9c54447, type: 3}
+  - {fileID: 654503872301740044, guid: 8e19cdd3ed8f43d4a9a3053d1462f32f, type: 3}
   maxSpeed: 10
   speed: 10
   maxRoadCount: 6
